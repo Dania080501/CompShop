@@ -4,16 +4,20 @@ body {
     font-family: sans-serif;
 }
 
+.header-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 
 .Cyberpc {
-margin: 0;
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 38px;
-
-
-color: #000000;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
 }
 
 .sallary {
@@ -37,12 +41,13 @@ nav{
     display: flex;
     gap: 65px;
     justify-content: center;
-    
+    align-items: center;
+    padding: 50px 0px;
 }
 
-.about-div{
-    display: flex;
-    justify-content: center;
+.info-div{
+    font-size: 24px;
+    line-height: 2;
 }
 
 .footer-info {
@@ -59,37 +64,46 @@ nav{
     color: black;
     font-size: x-large;
     font-weight: 600;
+    font-size: 32px;
     transition: 0.3s all;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .nav-link:hover {
     color: #FBFF00;
+    background-color: #000000;
 }
 
-.contacts {
-    background-image: linear-gradient(to right, yellow, black);
-    text-align: right;
-    padding: 0;
-    margin-bottom: 0;
+.sale-img {
+    width: 190px;
+    height: 190px;
 }
 
-.telephone{
-    text-align: left;
+.location-streets p {
+    font-size: 36px;
 }
 
-.meregi{
-    color: white;
-}
-
-.footer-img{
-    
+.sale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sale-div {
     display: flex;
-    gap: 50px;
-    margin-bottom: 10px;
+    gap: 60px;
     align-items: center;
+    margin-bottom: 80px;
+}
+
+.sale-div p {
+    max-width: 700px;
+    font-size: 24px;
+}
+
+.about {
+    text-align: center;
 }
 
 .menu-div:hover {
@@ -97,6 +111,22 @@ nav{
     border-radius: 10px;
 }
 
- main {
+main, footer {
     padding: 0px 88px;
+}
+
+footer {
+    background-image: linear-gradient(to right, yellow, black);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+}
+.footer-img {
+    width:50px;
+    height: 50px;
+}
+
+.contacts {
+    color: #000000;
 }
